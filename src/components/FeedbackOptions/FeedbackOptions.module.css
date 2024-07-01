@@ -1,0 +1,25 @@
+.btnOption {
+    padding: 5px 10px;
+    background-color: rgb(10, 57, 98);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-right: 10px;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnOption:hover, 
+.btnOption:focus {
+    background-color: #5fa1f7;
+}
+
+.divFeedback {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-shadow: none;
+    width: 100%;
+}
