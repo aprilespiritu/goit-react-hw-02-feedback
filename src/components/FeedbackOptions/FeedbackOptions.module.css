@@ -1,6 +1,6 @@
 .btnOption {
     padding: 5px 10px;
-    background-color: rgb(10, 57, 98);
+    background-color: rgb(8, 49, 84);
     color: white;
     border: 1px solid gray;
     border-radius: 4px;
@@ -14,7 +14,7 @@
 
 .btnOption:hover, 
 .btnOption:focus {
-    background-color: #5fa1f7;
+    background-color: #448cea;
 }
 
 .divFeedback {
