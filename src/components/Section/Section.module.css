@@ -1,0 +1,12 @@
+.sectionTitle {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.divSection {
+    margin: 0 auto;
+    padding: 0 auto;
+    border-radius: 0%;
+    box-shadow: none;
+    border-radius: 5px;
+}

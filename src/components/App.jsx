@@ -45,9 +45,23 @@ render() {
 
   return (
     <div>
-      <section title="Please leave a feedback">
-        
-      </section>
+      <Section title="Please leave a feedback.">
+        <FeedbackOptions options={options} onLeaveFeedback={this.handleClick}/>
+      </Section>
+      <Section title="Statistics">
+        {total > 0 ? (
+          <Statistics
+            good={good}
+            neutral={neutral}
+            bad={bad}
+            total={total}
+            positivePercentage={positivePercentage}
+          />
+        ) : (
+            <Notification message="There is no feedback."/>
+        )}
+      </Section>
     </div>
-  )
+  );
 }
+
